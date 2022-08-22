@@ -294,7 +294,7 @@ KIND MANAGEMENT:
 :   creates kind that allocates memory with specific memory type, memory
     binding policy and flags (see [MEMORY FLAGS](#memory-flags) section).
     The *memtype_flags* (see [MEMORY TYPES](#memory-types) section) determine
-    memory types to allocate, *policy* argument is policy for specifying page
+    memory types to allocate, *policy* argumengt is policy for specifying page
     binding to memory types selected by *memtype_flags*. Returns zero if the
     specified kind is created successfully or an error code from the [ERRORS](#errors)
     section if not.
