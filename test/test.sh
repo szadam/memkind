@@ -31,6 +31,7 @@ default=`tput sgr0`
 err=0
 
 function usage () {
+   echo "first stage"
    cat <<EOF
 
 Usage: $PROGNAME [-c csv_file] [-l log_file] [-f test_filter] [-T tests_dir] [-d] [-p] [-e] [-x] [-s] [-h]
